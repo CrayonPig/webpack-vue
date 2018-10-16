@@ -1,0 +1,243 @@
+/*初始化开始*/
+
+body,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+form,
+ol,
+dl,
+dt,
+dd {
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+/*去除移动端300ms延迟*/
+html {
+	touch-action: manipulation;
+}
+
+/*去掉这些标签的默认padding和margin*/
+
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	background: #fff;
+	font-size: 12px;
+	line-height: 1;
+	font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif !important;
+}
+
+
+/*网页默认文字样式*/
+
+img {
+	border: none;
+	display: block;
+}
+
+
+/*去掉IE浏览器下图片加超级链接后产生的边框*/
+
+ul,
+ol {
+	list-style: none;
+}
+
+
+/*去掉项目符号*/
+
+a {
+	text-decoration: none;
+}
+
+
+/*超级链接默认样式*/
+
+i {
+	font-style: normal;
+}
+
+
+/*去掉i标签样式*/
+
+a:hover {
+	text-decoration: none;
+	-webkit-tap-highlight-color: transparent;
+}
+
+
+/*去掉a标签鼠标移入效果*/
+
+a:link {
+	text-decoration: none;
+}
+
+
+/*去掉a标签效果*/
+
+a:visited {
+	text-decoration: none;
+}
+
+
+/*去掉a标签效果*/
+
+p {
+	text-align: justify;
+	word-break: break-all;
+}
+
+
+/*两端居中 强制断行*/
+
+input:focus {
+	outline: none;
+}
+
+
+/*去掉谷歌浏览器input标签获得焦点时*/
+
+textarea:focus {
+	outline: none;
+}
+
+
+/*去掉谷歌浏览器textarea标签获得焦点时*/
+
+:-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+::-moz-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+input:-ms-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+input::-webkit-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+textarea:-ms-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+textarea::-webkit-input-placeholder {
+	color: #000;
+	opacity: 1;
+}
+
+input,
+button,
+textarea {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	resize: none
+}
+
+
+/*去掉按钮样式*/
+
+.fl {
+	float: left;
+}
+
+
+/*左浮动*/
+
+.fr {
+	float: right;
+}
+
+
+/*右浮动*/
+
+.abs {
+	position: absolute;
+}
+
+
+/*绝对*/
+
+.rel {
+	position: relative;
+}
+
+
+/*相对*/
+
+.clear {
+	overflow: hidden;
+	height: 0;
+	clear: both;
+}
+
+
+/*万能清除*/
+
+.weight {
+	font-weight: bold;
+}
+
+
+/*加粗*/
+
+.text-center {
+	text-align: center;
+}
+
+
+/*文字居中*/
+
+.text-right {
+	text-align: right;
+}
+
+
+/*文字居右*/
+
+.text-left {
+	text-align: left;
+}
+
+
+/*文字居左*/
+
+.center {
+	margin: 0 auto;
+}
+
+
+/*居中*/
+
+.middle {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+
+/*垂直居中*/
+
+
+/*初始化结束*/
